@@ -1,0 +1,55 @@
+{
+  "name": "wzcr",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern .research --ignore-pattern .course-cache --ignore-pattern db/course-seeds.generated.ts",
+    "test": "node --test tests/*.test.mjs",
+    "db:check": "node scripts/check-db.mjs",
+    "professors:nycu-directory": "node scripts/import-nycu-official-directory.mjs",
+    "professors:discover": "node scripts/discover-official-department-sites.mjs",
+    "professors:faculty-pages": "node scripts/discover-official-faculty-pages.mjs",
+    "professors:extract": "node scripts/extract-official-professor-candidates.mjs",
+    "professors:merge": "node scripts/merge-official-professor-candidates.mjs && node scripts/build-professor-seed.mjs",
+    "courses:official": "python scripts/import-official-course-history.py",
+    "courses:nsysu": "python scripts/import-nsysu-official-course-history.py",
+    "courses:place-names": "python scripts/import-place-name-universities.py",
+    "courses:links-audit": "node scripts/audit-course-links.mjs",
+    "seed:build": "node scripts/build-professor-seed.mjs",
+    "pretest": "node scripts/build-professor-seed.mjs"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "jose": "^6.2.10",
+    "lucide-react": "0.544.0",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.54.0",
+    "@cloudflare/workers-types": "5.20260826.1",
+    "@openai/sites-vite-plugin": "^0.1.0 || ^0.2.0",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.34",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.8",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "1.0.0-beta.8",
+    "vite": "8.2.2",
+    "wrangler": "4.126.0"
+  },
+  "type": "module"
+}

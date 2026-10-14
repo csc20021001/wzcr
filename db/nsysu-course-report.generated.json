@@ -1,0 +1,222 @@
+{
+  "policy": {
+    "officialUniversityDomainsOnly": true,
+    "captchaBypassed": false,
+    "requiresCurrentOfficialInstructorEvidence": true,
+    "inactiveOrUnverifiedInstructorsPublished": false,
+    "specialResearchCoursesExcluded": true,
+    "failClosedResponseValidation": true,
+    "completeStaticUnitCatalogPerTerm": true
+  },
+  "checkedAt": "2026-08-30T04:07:21+00:00",
+  "universityId": "nsysu",
+  "status": "imported",
+  "officialIndex": "https://selcrs.nsysu.edu.tw/smain.asp?eng=0",
+  "officialReportEndpoint": "https://selcrs.nsysu.edu.tw/OPEN_CRS/crs_open.asp",
+  "sourceFormat": "official HTML course handbook report (PRTCRS=2)",
+  "earliestAcademicYear": 106,
+  "latestAcademicYear": 115,
+  "unitCatalogCount": 354,
+  "minimumOfferingsPerTerm": 1000,
+  "availableTerms": [
+    "106-1",
+    "106-2",
+    "107-1",
+    "107-2",
+    "108-1",
+    "108-2",
+    "109-1",
+    "109-2",
+    "110-1",
+    "110-2",
+    "111-1",
+    "111-2",
+    "112-1",
+    "112-2",
+    "113-1",
+    "113-2",
+    "114-1",
+    "114-2",
+    "115-1"
+  ],
+  "missingTerms": [],
+  "parsedOfferings": 47036,
+  "verifiedHistoricalOfferings": 33170,
+  "verifiedCourses": 7083,
+  "publishedCourseInstructorCards": 12433,
+  "publishedDepartments": 188,
+  "activeInstructorCount": 782,
+  "activeFacultyPageCount": 104,
+  "activeCourseReportEvidenceCount": 678,
+  "rejectedWithoutCurrentInstructor": 10981,
+  "excludedSpecialResearch": 2885,
+  "departmentQueries": 6726,
+  "successfulDepartmentQueries": 6726,
+  "emptyDepartmentQueries": 3732,
+  "failedDepartmentQueries": [],
+  "terms": [
+    {
+      "term": "106-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 215,
+      "parsedOfferings": 2299,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "106-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 216,
+      "parsedOfferings": 2177,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "107-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 212,
+      "parsedOfferings": 2360,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "107-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 213,
+      "parsedOfferings": 2289,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "108-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 207,
+      "parsedOfferings": 2378,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "108-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 209,
+      "parsedOfferings": 2324,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "109-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 200,
+      "parsedOfferings": 2529,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "109-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 200,
+      "parsedOfferings": 2455,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "110-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 196,
+      "parsedOfferings": 2630,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "110-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 200,
+      "parsedOfferings": 2389,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "111-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 189,
+      "parsedOfferings": 2544,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "111-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 193,
+      "parsedOfferings": 2521,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "112-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 189,
+      "parsedOfferings": 2581,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "112-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 189,
+      "parsedOfferings": 2536,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "113-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 180,
+      "parsedOfferings": 2600,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "113-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 183,
+      "parsedOfferings": 2535,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "114-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 180,
+      "parsedOfferings": 2666,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "114-2",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 181,
+      "parsedOfferings": 2576,
+      "failedDepartmentQueries": []
+    },
+    {
+      "term": "115-1",
+      "departmentQueries": 354,
+      "successfulDepartmentQueries": 354,
+      "emptyDepartmentQueries": 180,
+      "parsedOfferings": 2647,
+      "failedDepartmentQueries": []
+    }
+  ],
+  "migrationFiles": [
+    "0210_nsysu_official_course_history_batch_01_part_01.sql",
+    "0211_nsysu_official_course_history_batch_01_part_02.sql",
+    "0212_nsysu_official_course_history_batch_01_part_03.sql",
+    "0213_nsysu_official_course_history_batch_01_part_04.sql",
+    "0214_nsysu_official_course_history_batch_01_part_05.sql",
+    "0215_nsysu_official_course_history_batch_01_part_06.sql",
+    "0216_nsysu_official_course_history_batch_01_part_07.sql",
+    "0217_nsysu_official_course_history_batch_01_part_08.sql",
+    "0218_nsysu_official_course_history_batch_01_part_09.sql"
+  ]
+}

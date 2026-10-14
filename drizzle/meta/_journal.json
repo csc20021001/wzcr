@@ -1,0 +1,153 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1787736844272,
+      "tag": "0000_outgoing_mystique",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787736867023,
+      "tag": "0001_cheerful_warhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787740182984,
+      "tag": "0002_auth_and_publishing",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787741573627,
+      "tag": "0003_add_yizhong_listing",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787744800000,
+      "tag": "0004_cloudflare_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787744900000,
+      "tag": "0005_seed_government_rentals",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787831300000,
+      "tag": "0006_fixed_absolute_coordinates",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787838000000,
+      "tag": "0007_official_professor_sources",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787841000000,
+      "tag": "0008_academic_units_and_rating_dimensions",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787844000000,
+      "tag": "0011_unify_professor_identities",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1787845000000,
+      "tag": "0012_nycu_campuses_and_current_rentals",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1787846000000,
+      "tag": "0013_courses_and_course_ratings",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1788000000000,
+      "tag": "0014_course_history_terms",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1788001000000,
+      "tag": "0015_official_course_history_part_01",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1788002000000,
+      "tag": "0016_official_course_history_part_02",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1788003000000,
+      "tag": "0017_official_course_history_part_03",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1788004000000,
+      "tag": "0018_official_course_history_part_04",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "6",
+      "when": 1788005000000,
+      "tag": "0019_official_course_history_part_05",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "6",
+      "when": 1788006000000,
+      "tag": "0020_official_course_history_part_06",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "6",
+      "when": 1788007000000,
+      "tag": "0021_runtime_seed_versions",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "6",
+      "when": 1788008000000,
+      "tag": "0022_runtime_schema_state",
+      "breakpoints": true
+    }
+  ]
+}

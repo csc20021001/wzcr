@@ -1,0 +1,884 @@
+[
+  {
+    "number": 38,
+    "unitType": "學院",
+    "label": "人文藝術與社會學院 人文藝術與社會學院",
+    "normalizedLabel": "人文藝術與社會學院人文藝術與社會學院",
+    "websiteUrl": "https://chass.nycu.edu.tw/"
+  },
+  {
+    "number": 39,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 外國語文學系",
+    "normalizedLabel": "人文藝術與社會學院外國語文學系",
+    "websiteUrl": "https://fl.nycu.edu.tw/"
+  },
+  {
+    "number": 40,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 英語教學研究所",
+    "normalizedLabel": "人文藝術與社會學院英語教學研究所",
+    "websiteUrl": "https://tesol.nycu.edu.tw/"
+  },
+  {
+    "number": 41,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 傳播研究所",
+    "normalizedLabel": "人文藝術與社會學院傳播研究所",
+    "websiteUrl": "https://ics.nycu.edu.tw/"
+  },
+  {
+    "number": 42,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 教育研究所",
+    "normalizedLabel": "人文藝術與社會學院教育研究所",
+    "websiteUrl": "https://education.nycu.edu.tw/"
+  },
+  {
+    "number": 43,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 社會與文化研究所",
+    "normalizedLabel": "人文藝術與社會學院社會與文化研究所",
+    "websiteUrl": "https://srcs.nycu.edu.tw/"
+  },
+  {
+    "number": 44,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 應用藝術研究所",
+    "normalizedLabel": "人文藝術與社會學院應用藝術研究所",
+    "websiteUrl": "https://iaa.nycu.edu.tw/"
+  },
+  {
+    "number": 45,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 音樂研究所",
+    "normalizedLabel": "人文藝術與社會學院音樂研究所",
+    "websiteUrl": "https://imu.nycu.edu.tw/"
+  },
+  {
+    "number": 46,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 建築研究所",
+    "normalizedLabel": "人文藝術與社會學院建築研究所",
+    "websiteUrl": "https://arch.nycu.edu.tw/"
+  },
+  {
+    "number": 47,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 心智哲學研究所",
+    "normalizedLabel": "人文藝術與社會學院心智哲學研究所",
+    "websiteUrl": "https://phil.nycu.edu.tw/"
+  },
+  {
+    "number": 48,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 科技與社會研究所",
+    "normalizedLabel": "人文藝術與社會學院科技與社會研究所",
+    "websiteUrl": "https://sts.nycu.edu.tw/"
+  },
+  {
+    "number": 49,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 視覺文化研究所",
+    "normalizedLabel": "人文藝術與社會學院視覺文化研究所",
+    "websiteUrl": "https://svc.nycu.edu.tw/"
+  },
+  {
+    "number": 50,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 師資培育中心",
+    "normalizedLabel": "人文藝術與社會學院師資培育中心",
+    "websiteUrl": "https://teacher.nycu.edu.tw/"
+  },
+  {
+    "number": 51,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院 語言教學與研究中心",
+    "normalizedLabel": "人文藝術與社會學院語言教學與研究中心",
+    "websiteUrl": "https://ltrc.nycu.edu.tw/"
+  },
+  {
+    "number": 52,
+    "unitType": "系所",
+    "label": "人文藝術與社會學院",
+    "normalizedLabel": "人文藝術與社會學院",
+    "websiteUrl": "https://iacs.web.nycu.edu.tw/"
+  },
+  {
+    "number": 54,
+    "unitType": "學院",
+    "label": "工程生物科學學院 工程生物科學學院",
+    "normalizedLabel": "工程生物科學學院工程生物科學學院",
+    "websiteUrl": "https://ceb.nycu.edu.tw/"
+  },
+  {
+    "number": 55,
+    "unitType": "學院",
+    "label": "工學院 工學院",
+    "normalizedLabel": "工學院工學院",
+    "websiteUrl": "https://coe.nycu.edu.tw/"
+  },
+  {
+    "number": 56,
+    "unitType": "系所",
+    "label": "工學院 土木工程學系",
+    "normalizedLabel": "工學院土木工程學系",
+    "websiteUrl": "https://ce.nycu.edu.tw/"
+  },
+  {
+    "number": 57,
+    "unitType": "系所",
+    "label": "工學院 機械工程學系",
+    "normalizedLabel": "工學院機械工程學系",
+    "websiteUrl": "https://me.nycu.edu.tw/"
+  },
+  {
+    "number": 58,
+    "unitType": "系所",
+    "label": "工學院 材料科學與工程學系",
+    "normalizedLabel": "工學院材料科學與工程學系",
+    "websiteUrl": "https://mse.nycu.edu.tw/"
+  },
+  {
+    "number": 59,
+    "unitType": "系所",
+    "label": "工學院 奈米科技碩士班",
+    "normalizedLabel": "工學院奈米科技碩士班",
+    "websiteUrl": "https://int.nycu.edu.tw/"
+  },
+  {
+    "number": 60,
+    "unitType": "系所",
+    "label": "工學院 環境工程研究所",
+    "normalizedLabel": "工學院環境工程研究所",
+    "websiteUrl": "https://ev.nycu.edu.tw/"
+  },
+  {
+    "number": 61,
+    "unitType": "系所",
+    "label": "工學院 太空系統工程研究所",
+    "normalizedLabel": "工學院太空系統工程研究所",
+    "websiteUrl": "https://isse.nycu.edu.tw/"
+  },
+  {
+    "number": 62,
+    "unitType": "系所",
+    "label": "工學院 工學院碩士在職專班",
+    "normalizedLabel": "工學院工學院碩士在職專班",
+    "websiteUrl": "https://poe.nycu.edu.tw/"
+  },
+  {
+    "number": 63,
+    "unitType": "系所",
+    "label": "工學院 機器人碩士學位學程",
+    "normalizedLabel": "工學院機器人碩士學位學程",
+    "websiteUrl": "https://robotics.nycu.edu.tw/"
+  },
+  {
+    "number": 64,
+    "unitType": "學院",
+    "label": "光電學院 光電學院（含博士班）",
+    "normalizedLabel": "光電學院光電學院",
+    "websiteUrl": "https://cop.nycu.edu.tw/"
+  },
+  {
+    "number": 65,
+    "unitType": "學院",
+    "label": "客家文化學院 客家文化學院（含博士班）",
+    "normalizedLabel": "客家文化學院客家文化學院",
+    "websiteUrl": "https://hakka.nycu.edu.tw/"
+  },
+  {
+    "number": 66,
+    "unitType": "系所",
+    "label": "客家文化學院 人文社會學系",
+    "normalizedLabel": "客家文化學院人文社會學系",
+    "websiteUrl": "https://hs.nycu.edu.tw/"
+  },
+  {
+    "number": 67,
+    "unitType": "系所",
+    "label": "客家文化學院 傳播與科技學系",
+    "normalizedLabel": "客家文化學院傳播與科技學系",
+    "websiteUrl": "https://dcat.nycu.edu.tw/"
+  },
+  {
+    "number": 68,
+    "unitType": "系所",
+    "label": "客家文化學院 客家社會與文化碩士在職專班",
+    "normalizedLabel": "客家文化學院客家社會與文化碩士在職專班",
+    "websiteUrl": "https://chk.nycu.edu.tw/"
+  },
+  {
+    "number": 69,
+    "unitType": "系所",
+    "label": "客家文化學院 國際客家研究中心",
+    "normalizedLabel": "客家文化學院國際客家研究中心",
+    "websiteUrl": "https://hkc.hakka.nycu.edu.tw/"
+  },
+  {
+    "number": 70,
+    "unitType": "學院",
+    "label": "國防教育與研究總中心 國防教育與研究總中心",
+    "normalizedLabel": "國防教育與研究總中心國防教育與研究總中心",
+    "websiteUrl": "https://cendr.web.nycu.edu.tw/"
+  },
+  {
+    "number": 71,
+    "unitType": "系所",
+    "label": "國防教育與研究總中心 系統工程與科技學士學位學程",
+    "normalizedLabel": "國防教育與研究總中心系統工程與科技學士學位學程",
+    "websiteUrl": "https://setp.web.nycu.edu.tw/"
+  },
+  {
+    "number": 72,
+    "unitType": "學院",
+    "label": "產學創新研究學院 產學創新研究學院（全）",
+    "normalizedLabel": "產學創新研究學院產學創新研究學院",
+    "websiteUrl": "https://iais.nycu.edu.tw/"
+  },
+  {
+    "number": 73,
+    "unitType": "學院",
+    "label": "科技法律學院 科技法律學院（含所）",
+    "normalizedLabel": "科技法律學院科技法律學院",
+    "websiteUrl": "https://law.nycu.edu.tw/"
+  },
+  {
+    "number": 76,
+    "unitType": "學院",
+    "label": "理學院 理學院",
+    "normalizedLabel": "理學院理學院",
+    "websiteUrl": "https://science.nycu.edu.tw/"
+  },
+  {
+    "number": 77,
+    "unitType": "系所",
+    "label": "理學院 電子物理系",
+    "normalizedLabel": "理學院電子物理系",
+    "websiteUrl": "https://ep.nycu.edu.tw/"
+  },
+  {
+    "number": 78,
+    "unitType": "系所",
+    "label": "理學院 應用數學系",
+    "normalizedLabel": "理學院應用數學系",
+    "websiteUrl": "https://www.math.nycu.edu.tw/"
+  },
+  {
+    "number": 79,
+    "unitType": "系所",
+    "label": "理學院 應用化學系",
+    "normalizedLabel": "理學院應用化學系",
+    "websiteUrl": "https://dac.nycu.edu.tw/"
+  },
+  {
+    "number": 80,
+    "unitType": "系所",
+    "label": "理學院 統計學研究所",
+    "normalizedLabel": "理學院統計學研究所",
+    "websiteUrl": "https://stat.nycu.edu.tw/"
+  },
+  {
+    "number": 81,
+    "unitType": "系所",
+    "label": "理學院 物理研究所",
+    "normalizedLabel": "理學院物理研究所",
+    "websiteUrl": "https://phys.nycu.edu.tw/"
+  },
+  {
+    "number": 82,
+    "unitType": "系所",
+    "label": "理學院 理學院科學學士學位學程",
+    "normalizedLabel": "理學院理學院科學學士學位學程",
+    "websiteUrl": "https://isdp.web.nycu.edu.tw/"
+  },
+  {
+    "number": 83,
+    "unitType": "系所",
+    "label": "理學院 理學院碩士在職專班",
+    "normalizedLabel": "理學院理學院碩士在職專班",
+    "websiteUrl": "https://pos.nycu.edu.tw/"
+  },
+  {
+    "number": 85,
+    "unitType": "學院",
+    "label": "國際半導體產業學院 國際半導體產業學院（全）",
+    "normalizedLabel": "國際半導體產業學院國際半導體產業學院",
+    "websiteUrl": "https://icst.nycu.edu.tw/"
+  },
+  {
+    "number": 86,
+    "unitType": "學院",
+    "label": "智慧科學暨綠能學院 智慧科學暨綠能學院（全）",
+    "normalizedLabel": "智慧科學暨綠能學院智慧科學暨綠能學院",
+    "websiteUrl": "https://ai.nycu.edu.tw/"
+  },
+  {
+    "number": 87,
+    "unitType": "學院",
+    "label": "電機學院 電機學院",
+    "normalizedLabel": "電機學院電機學院",
+    "websiteUrl": "https://ece.nycu.edu.tw/"
+  },
+  {
+    "number": 88,
+    "unitType": "系所",
+    "label": "電機學院 電機工程學系",
+    "normalizedLabel": "電機學院電機工程學系",
+    "websiteUrl": "https://dee.nycu.edu.tw/"
+  },
+  {
+    "number": 89,
+    "unitType": "系所",
+    "label": "電機學院 光電工程學系",
+    "normalizedLabel": "電機學院光電工程學系",
+    "websiteUrl": "https://dop.nycu.edu.tw/"
+  },
+  {
+    "number": 90,
+    "unitType": "系所",
+    "label": "電機學院 電子研究所",
+    "normalizedLabel": "電機學院電子研究所",
+    "websiteUrl": "https://iee.nycu.edu.tw/"
+  },
+  {
+    "number": 91,
+    "unitType": "系所",
+    "label": "電機學院 電控工程研究所",
+    "normalizedLabel": "電機學院電控工程研究所",
+    "websiteUrl": "https://cn.nycu.edu.tw/"
+  },
+  {
+    "number": 92,
+    "unitType": "系所",
+    "label": "電機學院 電信工程研究所",
+    "normalizedLabel": "電機學院電信工程研究所",
+    "websiteUrl": "https://cm.nycu.edu.tw/"
+  },
+  {
+    "number": 93,
+    "unitType": "系所",
+    "label": "電機學院 智慧醫電工程研究所（原名「生醫工",
+    "normalizedLabel": "電機學院智慧醫電工程研究所(原名「生醫工",
+    "websiteUrl": "https://ibe.nycu.edu.tw/"
+  },
+  {
+    "number": 94,
+    "unitType": "系所",
+    "label": "電機學院 電機工程學系碩博士班（電機所）",
+    "normalizedLabel": "電機學院電機工程學系碩博士班",
+    "websiteUrl": "https://iece.dee.nycu.edu.tw/"
+  },
+  {
+    "number": 95,
+    "unitType": "系所",
+    "label": "電機學院",
+    "normalizedLabel": "電機學院",
+    "websiteUrl": "https://dpeecs.nycu.edu.tw/"
+  },
+  {
+    "number": 96,
+    "unitType": "系所",
+    "label": "電機學院 電機學院博士班",
+    "normalizedLabel": "電機學院電機學院博士班",
+    "websiteUrl": "https://doctoral.ece.nycu.edu.tw/"
+  },
+  {
+    "number": 97,
+    "unitType": "系所",
+    "label": "電機學院 奈米中心",
+    "normalizedLabel": "電機學院奈米中心",
+    "websiteUrl": "https://nanofc.web.nycu.edu.tw/"
+  },
+  {
+    "number": 98,
+    "unitType": "系所",
+    "label": "電機學院 半導體工程學系",
+    "normalizedLabel": "電機學院半導體工程學系",
+    "websiteUrl": "https://mee.nycu.edu.tw/"
+  },
+  {
+    "number": 99,
+    "unitType": "系所",
+    "label": "電機學院 光電博士學位學程（台聯大系統）",
+    "normalizedLabel": "電機學院光電博士學位學程",
+    "websiteUrl": "https://ustippp.nycu.edu.tw/"
+  },
+  {
+    "number": 100,
+    "unitType": "系所",
+    "label": "電機學院 人工智慧技術與應用碩士學位學程",
+    "normalizedLabel": "電機學院人工智慧技術與應用碩士學位學程",
+    "websiteUrl": "https://aigp.ece.nycu.edu.tw/"
+  },
+  {
+    "number": 101,
+    "unitType": "系所",
+    "label": "電機學院 電機資訊國際碩博士學位學程",
+    "normalizedLabel": "電機學院電機資訊國際碩博士學位學程",
+    "websiteUrl": "https://eecsigp.nycu.edu.tw/"
+  },
+  {
+    "number": 107,
+    "unitType": "學院",
+    "label": "資訊學院",
+    "normalizedLabel": "資訊學院",
+    "websiteUrl": "https://www.ccs.nycu.edu.tw/"
+  },
+  {
+    "number": 108,
+    "unitType": "系所",
+    "label": "資訊學院",
+    "normalizedLabel": "資訊學院",
+    "websiteUrl": "https://www.cs.nycu.edu.tw/"
+  },
+  {
+    "number": 112,
+    "unitType": "學院",
+    "label": "管理學院 管理學院(含碩士在職專班）",
+    "normalizedLabel": "管理學院管理學院",
+    "websiteUrl": "https://com.nycu.edu.tw/"
+  },
+  {
+    "number": 113,
+    "unitType": "系所",
+    "label": "管理學院 管理科學系",
+    "normalizedLabel": "管理學院管理科學系",
+    "websiteUrl": "https://ms.nycu.edu.tw/"
+  },
+  {
+    "number": 114,
+    "unitType": "系所",
+    "label": "管理學院 運輸與物流管理學系",
+    "normalizedLabel": "管理學院運輸與物流管理學系",
+    "websiteUrl": "https://tlm.nycu.edu.tw/"
+  },
+  {
+    "number": 115,
+    "unitType": "系所",
+    "label": "管理學院 工業工程與管理學系",
+    "normalizedLabel": "管理學院工業工程與管理學系",
+    "websiteUrl": "https://iem.nycu.edu.tw/"
+  },
+  {
+    "number": 116,
+    "unitType": "系所",
+    "label": "管理學院 資訊管理與財務金融學系",
+    "normalizedLabel": "管理學院資訊管理與財務金融學系",
+    "websiteUrl": "https://imf.nycu.edu.tw/"
+  },
+  {
+    "number": 117,
+    "unitType": "系所",
+    "label": "管理學院 經營管理研究所",
+    "normalizedLabel": "管理學院經營管理研究所",
+    "websiteUrl": "https://ibm.nycu.edu.tw/"
+  },
+  {
+    "number": 118,
+    "unitType": "系所",
+    "label": "管理學院 科技管理研究所",
+    "normalizedLabel": "管理學院科技管理研究所",
+    "websiteUrl": "https://mot.nycu.edu.tw/"
+  },
+  {
+    "number": 119,
+    "unitType": "系所",
+    "label": "管理學院 資訊管理研究所",
+    "normalizedLabel": "管理學院資訊管理研究所",
+    "websiteUrl": "https://iim.nycu.edu.tw/"
+  },
+  {
+    "number": 120,
+    "unitType": "系所",
+    "label": "管理學院 高階主管管理碩士學程",
+    "normalizedLabel": "管理學院高階主管管理碩士學程",
+    "websiteUrl": "https://emba.nycu.edu.tw/"
+  },
+  {
+    "number": 121,
+    "unitType": "系所",
+    "label": "管理學院 企業管理碩士學位學程",
+    "normalizedLabel": "管理學院企業管理碩士學位學程",
+    "websiteUrl": "https://gmba.nycu.edu.tw/"
+  },
+  {
+    "number": 122,
+    "unitType": "學院",
+    "label": "跨院學程推展辦公室 跨院學程推展辦公室",
+    "normalizedLabel": "跨院學程推展辦公室跨院學程推展辦公室",
+    "websiteUrl": "https://cdipo.nycu.edu.tw/"
+  },
+  {
+    "number": 123,
+    "unitType": "系所",
+    "label": "跨院學程推展辦公室 學士後電子與光子學士學位學程",
+    "normalizedLabel": "跨院學程推展辦公室學士後電子與光子學士學位學程",
+    "websiteUrl": "https://steam.nycu.edu.tw/"
+  },
+  {
+    "number": 124,
+    "unitType": "學院",
+    "label": "牙醫學院 牙醫學院",
+    "normalizedLabel": "牙醫學院牙醫學院",
+    "websiteUrl": "https://sod.nycu.edu.tw/"
+  },
+  {
+    "number": 125,
+    "unitType": "系所",
+    "label": "牙醫學院 牙醫學系",
+    "normalizedLabel": "牙醫學院牙醫學系",
+    "websiteUrl": "https://dod.nycu.edu.tw/"
+  },
+  {
+    "number": 126,
+    "unitType": "系所",
+    "label": "牙醫學院 口腔生物研究所",
+    "normalizedLabel": "牙醫學院口腔生物研究所",
+    "websiteUrl": "https://iob.nycu.edu.tw/"
+  },
+  {
+    "number": 127,
+    "unitType": "系所",
+    "label": "牙醫學院 口腔組織工程暨生技材料研究所",
+    "normalizedLabel": "牙醫學院口腔組織工程暨生技材料研究所",
+    "websiteUrl": "https://itm.nycu.edu.tw/"
+  },
+  {
+    "number": 128,
+    "unitType": "學院",
+    "label": "生命科學院 生命科學院",
+    "normalizedLabel": "生命科學院生命科學院",
+    "websiteUrl": "https://cls.nycu.edu.tw/"
+  },
+  {
+    "number": 129,
+    "unitType": "系所",
+    "label": "生命科學院 生命科學系暨基因體科學研究所",
+    "normalizedLabel": "生命科學院生命科學系暨基因體科學研究所",
+    "websiteUrl": "https://dls.nycu.edu.tw/"
+  },
+  {
+    "number": 130,
+    "unitType": "系所",
+    "label": "生命科學院 神經科學研究所",
+    "normalizedLabel": "生命科學院神經科學研究所",
+    "websiteUrl": "https://ins.nycu.edu.tw/"
+  },
+  {
+    "number": 131,
+    "unitType": "系所",
+    "label": "生命科學院 微生物及免疫學研究所",
+    "normalizedLabel": "生命科學院微生物及免疫學研究所",
+    "websiteUrl": "https://imi.nycu.edu.tw/"
+  },
+  {
+    "number": 132,
+    "unitType": "系所",
+    "label": "生命科學院 生化暨分子生物研究所",
+    "normalizedLabel": "生命科學院生化暨分子生物研究所",
+    "websiteUrl": "https://biochem.nycu.edu.tw/"
+  },
+  {
+    "number": 133,
+    "unitType": "系所",
+    "label": "生命科學院 生物醫學資訊研究所",
+    "normalizedLabel": "生命科學院生物醫學資訊研究所",
+    "websiteUrl": "https://bmi.nycu.edu.tw/"
+  },
+  {
+    "number": 134,
+    "unitType": "系所",
+    "label": "生命科學院 跨領域分子醫學碩士學位學程",
+    "normalizedLabel": "生命科學院跨領域分子醫學碩士學位學程",
+    "websiteUrl": "https://imp-mm.nycu.edu.tw/"
+  },
+  {
+    "number": 135,
+    "unitType": "系所",
+    "label": "生命科學院 分子醫學博士學位學程",
+    "normalizedLabel": "生命科學院分子醫學博士學位學程",
+    "websiteUrl": "https://mmp.nycu.edu.tw/"
+  },
+  {
+    "number": 136,
+    "unitType": "系所",
+    "label": "生命科學院",
+    "normalizedLabel": "生命科學院",
+    "websiteUrl": "https://lsemba.web.nycu.edu.tw/"
+  },
+  {
+    "number": 137,
+    "unitType": "系所",
+    "label": "生命科學院 生技醫療產業博士學位學程",
+    "normalizedLabel": "生命科學院生技醫療產業博士學位學程",
+    "websiteUrl": "https://bip.nycu.edu.tw/"
+  },
+  {
+    "number": 138,
+    "unitType": "學院",
+    "label": "生物醫學暨工程學院 生物醫學暨工程學院",
+    "normalizedLabel": "生物醫學暨工程學院生物醫學暨工程學院",
+    "websiteUrl": "https://cbmse.nycu.edu.tw/"
+  },
+  {
+    "number": 139,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 醫學生物技術暨檢驗學系",
+    "normalizedLabel": "生物醫學暨工程學院醫學生物技術暨檢驗學系",
+    "websiteUrl": "https://dmt.nycu.edu.tw/"
+  },
+  {
+    "number": 140,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 生物醫學影像暨放射科學系",
+    "normalizedLabel": "生物醫學暨工程學院生物醫學影像暨放射科學系",
+    "websiteUrl": "https://birs.nycu.edu.tw/"
+  },
+  {
+    "number": 141,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 物理治療暨輔助科技學系",
+    "normalizedLabel": "生物醫學暨工程學院物理治療暨輔助科技學系",
+    "websiteUrl": "https://ptat.nycu.edu.tw/"
+  },
+  {
+    "number": 142,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 生物醫學工程學系",
+    "normalizedLabel": "生物醫學暨工程學院生物醫學工程學系",
+    "websiteUrl": "https://nycubme.nycu.edu.tw/"
+  },
+  {
+    "number": 143,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 生醫光電研究所",
+    "normalizedLabel": "生物醫學暨工程學院生醫光電研究所",
+    "websiteUrl": "https://bioph.nycu.edu.tw/"
+  },
+  {
+    "number": 144,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院 數位醫療學士學位學程",
+    "normalizedLabel": "生物醫學暨工程學院數位醫療學士學位學程",
+    "websiteUrl": "https://dhcr.nycu.edu.tw/"
+  },
+  {
+    "number": 145,
+    "unitType": "系所",
+    "label": "生物醫學暨工程學院",
+    "normalizedLabel": "生物醫學暨工程學院",
+    "websiteUrl": "https://ipbse.nycu.edu.tw/"
+  },
+  {
+    "number": 147,
+    "unitType": "學院",
+    "label": "醫學院 醫學院",
+    "normalizedLabel": "醫學院醫學院",
+    "websiteUrl": "https://som.nycu.edu.tw/"
+  },
+  {
+    "number": 148,
+    "unitType": "系所",
+    "label": "醫學院 醫學系",
+    "normalizedLabel": "醫學院醫學系",
+    "websiteUrl": "https://med.nycu.edu.tw/"
+  },
+  {
+    "number": 149,
+    "unitType": "系所",
+    "label": "醫學院 中醫學系",
+    "normalizedLabel": "醫學院中醫學系",
+    "websiteUrl": "https://nycucm.nycu.edu.tw/"
+  },
+  {
+    "number": 150,
+    "unitType": "系所",
+    "label": "醫學院 臨床醫學研究所",
+    "normalizedLabel": "醫學院臨床醫學研究所",
+    "websiteUrl": "https://icm.nycu.edu.tw/"
+  },
+  {
+    "number": 151,
+    "unitType": "系所",
+    "label": "醫學院 傳統醫藥研究所",
+    "normalizedLabel": "醫學院傳統醫藥研究所",
+    "websiteUrl": "https://tmi.nycu.edu.tw/"
+  },
+  {
+    "number": 152,
+    "unitType": "系所",
+    "label": "醫學院 公共衛生研究所",
+    "normalizedLabel": "醫學院公共衛生研究所",
+    "websiteUrl": "https://iph.nycu.edu.tw/"
+  },
+  {
+    "number": 153,
+    "unitType": "系所",
+    "label": "醫學院 醫務管理研究所",
+    "normalizedLabel": "醫學院醫務管理研究所",
+    "websiteUrl": "https://ihha.nycu.edu.tw/"
+  },
+  {
+    "number": 154,
+    "unitType": "系所",
+    "label": "醫學院 衛生福利研究所",
+    "normalizedLabel": "醫學院衛生福利研究所",
+    "websiteUrl": "https://ihw.nycu.edu.tw/"
+  },
+  {
+    "number": 155,
+    "unitType": "系所",
+    "label": "醫學院 環境與職業衛生研究所",
+    "normalizedLabel": "醫學院環境與職業衛生研究所",
+    "websiteUrl": "https://ieohs.nycu.edu.tw/"
+  },
+  {
+    "number": 156,
+    "unitType": "系所",
+    "label": "醫學院 生理學研究所",
+    "normalizedLabel": "醫學院生理學研究所",
+    "websiteUrl": "https://phy.nycu.edu.tw/"
+  },
+  {
+    "number": 157,
+    "unitType": "系所",
+    "label": "醫學院 藥理學研究所",
+    "normalizedLabel": "醫學院藥理學研究所",
+    "websiteUrl": "https://phd.nycu.edu.tw/"
+  },
+  {
+    "number": 158,
+    "unitType": "系所",
+    "label": "醫學院 解剖學及細胞生物學研究所",
+    "normalizedLabel": "醫學院解剖學及細胞生物學研究所",
+    "websiteUrl": "https://ias.nycu.edu.tw/"
+  },
+  {
+    "number": 159,
+    "unitType": "系所",
+    "label": "醫學院 急重症醫學研究所",
+    "normalizedLabel": "醫學院急重症醫學研究所",
+    "websiteUrl": "https://ieccm.nycu.edu.tw/"
+  },
+  {
+    "number": 160,
+    "unitType": "系所",
+    "label": "醫學院 腦科學研究所",
+    "normalizedLabel": "醫學院腦科學研究所",
+    "websiteUrl": "https://ibs.nycu.edu.tw/"
+  },
+  {
+    "number": 161,
+    "unitType": "系所",
+    "label": "醫學院 國際衛生碩士學位學程",
+    "normalizedLabel": "醫學院國際衛生碩士學位學程",
+    "websiteUrl": "https://ihp.nycu.edu.tw/"
+  },
+  {
+    "number": 162,
+    "unitType": "系所",
+    "label": "醫學院 公共衛生碩士學位學程",
+    "normalizedLabel": "醫學院公共衛生碩士學位學程",
+    "websiteUrl": "https://mph.nycu.edu.tw/"
+  },
+  {
+    "number": 163,
+    "unitType": "系所",
+    "label": "醫學院",
+    "normalizedLabel": "醫學院",
+    "websiteUrl": "https://ust-est.nycu.edu.tw/"
+  },
+  {
+    "number": 164,
+    "unitType": "系所",
+    "label": "醫學院 跨領域醫學博士學位學程",
+    "normalizedLabel": "醫學院跨領域醫學博士學位學程",
+    "websiteUrl": "https://pim.nycu.edu.tw/"
+  },
+  {
+    "number": 165,
+    "unitType": "系所",
+    "label": "醫學院",
+    "normalizedLabel": "醫學院",
+    "websiteUrl": "https://shmp.nycu.edu.tw/"
+  },
+  {
+    "number": 168,
+    "unitType": "學院",
+    "label": "藥物科學院​",
+    "normalizedLabel": "藥物科學院",
+    "websiteUrl": "https://sphs.nycu.edu.tw/"
+  },
+  {
+    "number": 169,
+    "unitType": "系所",
+    "label": "藥物科學院​ 生物藥學研究所",
+    "normalizedLabel": "藥物科學院生物藥學研究所",
+    "websiteUrl": "https://bps.nycu.edu.tw/"
+  },
+  {
+    "number": 170,
+    "unitType": "系所",
+    "label": "藥物科學院​ 藥學系",
+    "normalizedLabel": "藥物科學院藥學系",
+    "websiteUrl": "https://pharmacy.nycu.edu.tw/"
+  },
+  {
+    "number": 171,
+    "unitType": "系所",
+    "label": "藥物科學院​ 食品安全及健康風險評估研究所",
+    "normalizedLabel": "藥物科學院食品安全及健康風險評估研究所",
+    "websiteUrl": "https://ifshra.nycu.edu.tw/"
+  },
+  {
+    "number": 172,
+    "unitType": "學院",
+    "label": "護理學院 護理學院​(全）",
+    "normalizedLabel": "護理學院護理學院",
+    "websiteUrl": "https://con.nycu.edu.tw/"
+  },
+  {
+    "number": 173,
+    "unitType": "系所",
+    "label": "學士班大一大二不分系 學士班大一大二不分系（全）",
+    "normalizedLabel": "學士班大一大二不分系學士班大一大二不分系",
+    "websiteUrl": "https://ipu.nycu.edu.tw/"
+  },
+  {
+    "number": 174,
+    "unitType": "系所",
+    "label": "https://mltc.nycu.edu.tw/",
+    "normalizedLabel": "https:mltc.nycu.edu.tw",
+    "websiteUrl": "https://mltc.nycu.edu.tw/"
+  },
+  {
+    "number": 175,
+    "unitType": "學院",
+    "label": "博雅書苑 博雅書苑（含社教中心）",
+    "normalizedLabel": "博雅書苑博雅書苑",
+    "websiteUrl": "https://liberalarts.nycu.edu.tw/"
+  },
+  {
+    "number": 176,
+    "unitType": "系所",
+    "label": "博雅書苑 人文科學中心",
+    "normalizedLabel": "博雅書苑人文科學中心",
+    "websiteUrl": "https://cgec.nycu.edu.tw/"
+  },
+  {
+    "number": 177,
+    "unitType": "系所",
+    "label": "博雅書苑 藝文中心",
+    "normalizedLabel": "博雅書苑藝文中心",
+    "websiteUrl": "https://arts.nycu.edu.tw/"
+  },
+  {
+    "number": 178,
+    "unitType": "系所",
+    "label": "博雅書苑 百川學士學位學程",
+    "normalizedLabel": "博雅書苑百川學士學位學程",
+    "websiteUrl": "https://aretehp.nycu.edu.tw/"
+  }
+]

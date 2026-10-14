@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-08-29T06:12:24Z",
+  "sourcePolicy": "official university domains only",
+  "schools": {
+    "cycu": {
+      "officialIndex": "https://itouch.cycu.edu.tw/active_system/CourseQuerySystem/spa/",
+      "coverage": "1061-1151",
+      "rawOfferings": 83972,
+      "activeInstructors": 1182,
+      "courseRows": 6899,
+      "teacherCards": 13788
+    },
+    "tku": {
+      "officialIndex": "https://esquery.tku.edu.tw/acad/upload/",
+      "coverage": "1151 (the university's public offline snapshot)",
+      "rawOfferings": 5398,
+      "officialPages": 199,
+      "activeInstructors": 1367,
+      "note": "Older public snapshots are distributed as RAR downloads; only the directly auditable current snapshot is imported.",
+      "courseRows": 2802,
+      "teacherCards": 3742
+    },
+    "yzu": {
+      "officialIndex": "https://portalfun.yzu.edu.tw/cosSelect/index.aspx?D=G",
+      "coverage": "1151 (legacy official query; successful public units only)",
+      "rawOfferings": 693,
+      "successfulOfficialUnits": 77,
+      "requestedOfficialUnits": 77,
+      "activeInstructors": 466,
+      "note": "The official legacy ASP.NET service does not provide a stable bulk endpoint; no non-university mirror is used.",
+      "courseRows": 494,
+      "teacherCards": 768
+    },
+    "fcu": {
+      "officialIndex": "https://coursesearch04.fcu.edu.tw/",
+      "coverage": "1071-1151",
+      "rawOfferings": 70100,
+      "officialQueries": 578,
+      "activeInstructors": 1294,
+      "courseRows": 8221,
+      "teacherCards": 20652
+    }
+  },
+  "migrationFiles": [
+    "0025_four_private_universities_part_01.sql",
+    "0026_four_private_universities_part_02.sql",
+    "0027_four_private_universities_part_03.sql",
+    "0028_four_private_universities_part_04.sql",
+    "0029_four_private_universities_part_05.sql",
+    "0030_four_private_universities_part_06.sql",
+    "0031_four_private_universities_part_07.sql",
+    "0032_four_private_universities_part_08.sql",
+    "0033_four_private_universities_part_09.sql",
+    "0034_four_private_universities_part_10.sql",
+    "0035_four_private_universities_part_11.sql",
+    "0036_four_private_universities_part_12.sql",
+    "0037_four_private_universities_part_13.sql",
+    "0038_four_private_universities_part_14.sql",
+    "0039_four_private_universities_part_15.sql",
+    "0040_four_private_universities_part_16.sql",
+    "0041_four_private_universities_part_17.sql",
+    "0042_four_private_universities_part_18.sql",
+    "0043_four_private_universities_part_19.sql",
+    "0044_four_private_universities_part_20.sql",
+    "0045_four_private_universities_part_21.sql",
+    "0046_four_private_universities_part_22.sql",
+    "0047_four_private_universities_part_23.sql",
+    "0048_four_private_universities_part_24.sql",
+    "0049_four_private_universities_part_25.sql"
+  ],
+  "totalCourseRows": 18416,
+  "totalTeacherCards": 38950
+}
