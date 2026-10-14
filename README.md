@@ -1,5 +1,7 @@
 # WZCR｜臺灣大學課程評分
 
+畫面、API、登入及資料流程見 [程式架構說明](docs/ARCHITECTURE.md)。
+
 ## 公開原始碼版本
 
 WZCR 是 WZUNAA Course Ratings 的縮寫。這是課程查詢與評分系統的獨立公開快照，保留目前的應用程式功能與官方公開課程資料，從新的 Git 歷史開始。

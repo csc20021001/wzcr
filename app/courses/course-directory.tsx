@@ -4,35 +4,21 @@ import { FormEvent, useEffect, useMemo, useRef, useState } from 'react';
 import { Check, ChevronDown, ExternalLink, GraduationCap, LogIn, Plus, Search, ShieldCheck, Star, X } from 'lucide-react';
 import { AdSenseSlot } from '@/app/adsense';
 import { universities } from '@/app/data';
+import type { CourseView as CourseCard } from '@/db/courses';
+import type { DepartmentView as Department } from '@/db/departments';
 
-type Course = {
-  id: string;
-  courseId: string;
-  universityId: string;
-  semester: '1' | '2';
-  courseCode: string;
-  name: string;
-  department: string;
-  officialSourceUrl: string;
-  departmentSourceUrl: string;
-  sourceType: 'official' | 'user';
-  instructors: Array<{ name: string; officialSourceUrl: string }>;
-  averageLearning: number | null;
-  averageWorkload: number | null;
-  averageExamDifficulty: number | null;
-  averageGradingStandard: number | null;
-  averageAttendanceFrequency: number | null;
-  ratingCount: number;
-};
+// Each card represents a course AND one instructor, not just a course record.
+// Type-only imports share the API shape without loading database code in the browser.
+const COURSE_PAGE_SIZE = 36;
+const SEARCH_DEBOUNCE_MS = 220;
 
-type Department = {
-  id: string;
-  universityId: string;
-  college: string;
-  name: string;
-  unitType: 'department' | 'institute' | 'program' | 'academic-unit';
-  officialSourceUrl: string;
-};
+function courseQueryParams(schoolId: string, search: string, department: string, semester: string, offset: number) {
+  const params = new URLSearchParams({ university_id: schoolId, limit: String(COURSE_PAGE_SIZE), offset: String(offset) });
+  if (search.trim()) params.set('search', search.trim());
+  if (department.trim()) params.set('department', department.trim());
+  if (semester) params.set('semester', semester);
+  return params;
+}
 
 type AuthState = { user: { id: string; name: string } | null; googleConfigured: boolean };
 type RatingScores = {
@@ -59,7 +45,7 @@ const ratingDimensions: Array<{
   hint: string;
   meaning: string;
   polarity: 'benefit' | 'intensity';
-  averageKey: keyof Pick<Course, 'averageLearning' | 'averageWorkload' | 'averageExamDifficulty' | 'averageGradingStandard' | 'averageAttendanceFrequency'>;
+  averageKey: keyof Pick<CourseCard, 'averageLearning' | 'averageWorkload' | 'averageExamDifficulty' | 'averageGradingStandard' | 'averageAttendanceFrequency'>;
 }> = [
   {
     key: 'learningScore', label: '學習收穫', low: '幾乎沒學到', high: '學到很多',
@@ -105,7 +91,7 @@ export function CourseDirectory() {
   const [department, setDepartment] = useState('');
   const [semester, setSemester] = useState('');
   const [departments, setDepartments] = useState<Department[]>([]);
-  const [courses, setCourses] = useState<Course[]>([]);
+  const [courses, setCourses] = useState<CourseCard[]>([]);
   const [auth, setAuth] = useState<AuthState>({ user: null, googleConfigured: false });
   const [loading, setLoading] = useState(false);
   const [loadingMore, setLoadingMore] = useState(false);
@@ -152,15 +138,10 @@ export function CourseDirectory() {
     const controller = new AbortController();
     const timer = window.setTimeout(() => {
       setLoading(true);
-      const params = new URLSearchParams({ university_id: schoolId });
-      if (search.trim()) params.set('search', search.trim());
-      if (department.trim()) params.set('department', department.trim());
-      if (semester) params.set('semester', semester);
-      params.set('limit', '36');
-      params.set('offset', '0');
+      const params = courseQueryParams(schoolId, search, department, semester, 0);
       fetch(`/api/courses?${params}`, { signal: controller.signal })
         .then(async (response) => {
-          const data = await response.json() as { courses?: Course[]; total?: number; nextOffset?: number | null; error?: string };
+          const data = await response.json() as { courses?: CourseCard[]; total?: number; nextOffset?: number | null; error?: string };
           if (!response.ok) throw new Error(data.error || '課程資料載入失敗');
           if (requestVersion !== courseRequestVersion.current) return;
           setCourses(data.courses ?? []);
@@ -176,7 +157,7 @@ export function CourseDirectory() {
           setMessage(caught instanceof Error ? caught.message : '課程資料載入失敗');
         })
         .finally(() => { if (!controller.signal.aborted && requestVersion === courseRequestVersion.current) setLoading(false); });
-    }, 220);
+    }, SEARCH_DEBOUNCE_MS);
     return () => {
       window.clearTimeout(timer);
       controller.abort();
@@ -188,12 +169,9 @@ export function CourseDirectory() {
     const requestVersion = courseRequestVersion.current;
     setLoadingMore(true);
     try {
-      const params = new URLSearchParams({ university_id: schoolId, limit: '36', offset: String(nextOffset) });
-      if (search.trim()) params.set('search', search.trim());
-      if (department.trim()) params.set('department', department.trim());
-      if (semester) params.set('semester', semester);
+      const params = courseQueryParams(schoolId, search, department, semester, nextOffset);
       const response = await fetch(`/api/courses?${params}`);
-      const data = await response.json() as { courses?: Course[]; total?: number; nextOffset?: number | null; error?: string };
+      const data = await response.json() as { courses?: CourseCard[]; total?: number; nextOffset?: number | null; error?: string };
       if (!response.ok) throw new Error(data.error || '課程資料載入失敗');
       if (requestVersion !== courseRequestVersion.current) return;
       setCourses((current) => [...current, ...(data.courses ?? [])]);
@@ -213,7 +191,7 @@ export function CourseDirectory() {
     return [...grouped.entries()];
   }, [departments]);
 
-  function openRating(course: Course) {
+  function openRating(course: CourseCard) {
     if (!auth.user) {
       window.location.assign(`/api/auth/google/start?returnTo=${encodeURIComponent('/courses')}`);
       return;
@@ -223,7 +201,7 @@ export function CourseDirectory() {
     setMessage('');
   }
 
-  async function submitRating(event: FormEvent<HTMLFormElement>, course: Course) {
+  async function submitRating(event: FormEvent<HTMLFormElement>, course: CourseCard) {
     event.preventDefault();
     setSubmitting(true);
     setMessage('');
@@ -231,9 +209,10 @@ export function CourseDirectory() {
       const response = await fetch(`/api/courses/${encodeURIComponent(course.id)}/rating`, {
         method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(scores),
       });
-      const data = await response.json() as { course?: Course; error?: string };
+      const data = await response.json() as { course?: CourseCard; error?: string };
       if (!response.ok || !data.course) throw new Error(data.error || '評分失敗');
-      setCourses((current) => current.map((item) => item.id === data.course!.id ? data.course! : item));
+      const updatedCard = data.course;
+      setCourses((current) => current.map((item) => item.id === updatedCard.id ? updatedCard : item));
       setRatingTargetId('');
       setMessage('評分已更新。');
     } catch (caught) {
@@ -278,9 +257,10 @@ export function CourseDirectory() {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ universityId: schoolId, ...courseSubmission }),
       });
-      const data = await response.json() as { course?: Course; error?: string };
+      const data = await response.json() as { course?: CourseCard; error?: string };
       if (!response.ok || !data.course) throw new Error(data.error || '新增課程失敗');
-      setCourses((current) => [data.course!, ...current]);
+      const createdCard = data.course;
+      setCourses((current) => [createdCard, ...current]);
       setTotal((current) => current + 1);
       setSubmissionOpen(false);
       setMessage('課程已新增。');

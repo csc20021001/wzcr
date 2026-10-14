@@ -3,7 +3,9 @@ import { getD1 } from './index';
 export type CourseInstructorView = { name: string; officialSourceUrl: string };
 
 export type CourseView = {
+  // API/UI card identity: course ID plus the instructor name.
   id: string;
+  // Database identity shared by all instructors teaching the same course.
   courseId: string;
   universityId: string;
   semester: '1' | '2';
@@ -63,7 +65,7 @@ export function parseCourseCardId(value: string) {
   }
 }
 
-function mapCourse(row: CourseRow): CourseView {
+function mapCourseCard(row: CourseRow): CourseView {
   const semester = row.semester === '2' ? '2' : '1';
   return {
     id: makeCourseCardId(row.id, row.instructor_name),
@@ -152,7 +154,7 @@ export async function listCourses(filters: {
     ORDER BY rating_count DESC, c.department, c.name, ci.instructor_name
     LIMIT ? OFFSET ?
   `).bind(...values, limit, offset).all<CourseRow>();
-  const courses = result.results.map(mapCourse);
+  const courses = result.results.map(mapCourseCard);
   const total = Number(countRow?.total ?? 0);
   return { courses, total, nextOffset: offset + courses.length < total ? offset + courses.length : null };
 }
@@ -164,5 +166,5 @@ export async function getCourse(cardId: string) {
     WHERE c.id = ? AND ci.instructor_name = ? AND c.name NOT LIKE '%專題研究%'
     GROUP BY c.id, ci.instructor_name
   `).bind(identity.courseId, identity.instructorName).first<CourseRow>();
-  return row ? mapCourse(row) : null;
+  return row ? mapCourseCard(row) : null;
 }
